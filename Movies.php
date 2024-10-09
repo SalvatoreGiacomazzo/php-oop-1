@@ -24,6 +24,18 @@ class Movies
         $this->genre = $genre;
         $this->rating = $rating;
     }
+
+
+
+    //! printing function
+    public function printInfo()
+    {
+        return "Title: " . $this->title .
+            "Directed By: " . $this->director .
+            "Year of publishing: " . $this->year .
+            "Genre: " . $this->genre .
+            "Rating out of 5 :" . $this->rating;
+    }
 }
 
 $americanHistoryX = new Movies('American History X', 'Tony Kaye', 1999, 'Drama', 4);
