@@ -30,11 +30,11 @@ class Movies
     //! printing function
     public function printInfo()
     {
-        return "Title: " . $this->title .
-            "Directed By: " . $this->director .
-            "Year of publishing: " . $this->year .
-            "Genre: " . $this->genre .
-            "Rating out of 5 :" . $this->rating;
+        return "<strong>Title: </strong>" . $this->title . "<br>" .
+            "<strong>Directed By: </strong>" . $this->director . "<br>" .
+            "<strong>Year of publishing:  </strong>" . $this->year . "<br>" .
+            "<strong>Genre:  </strong>" . $this->genre . "<br>" .
+            "<strong>Rating out of 5 : </strong>" . $this->rating;
     }
 }
 

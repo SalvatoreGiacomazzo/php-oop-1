@@ -31,49 +31,20 @@ $movies = [
 <body>
     <div class="container my-5">
         <div class="row">
+            <?php foreach ($movies as $movie) { ?>
+                <div class="col-6 mb-4">
 
-            <div class="col-6 mb-4">
-                <h5>list</h5>
-                <ul class="list-group">
-                    <li class="list-group-item">testing</li>
-                    <li class="list-group-item">testing</li>
-                    <li class="list-group-item">testing</li>
-                </ul>
-            </div>
+                    <h5><?= $movie->title; ?></h5>
+                    <ul class="list-group">
+                        <li class="list-group-item"> <?= $movie->printInfo();       ?></li>
 
 
-            <div class="col-6 mb-4">
-                <h5>list</h5>
-                <ul class="list-group">
-                    <li class="list-group-item">testing</li>
-                    <li class="list-group-item">testing</li>
-                    <li class="list-group-item">testing</li>
-                </ul>
-            </div>
+                    </ul>
+
+                </div>
+            <?php } ?>
         </div>
 
-        <div class="row">
-
-            <div class="col-6 mb-4">
-                <h5>list</h5>
-                <ul class="list-group">
-                    <li class="list-group-item">testing</li>
-                    <li class="list-group-item">testing</li>
-                    <li class="list-group-item">testing</li>
-                </ul>
-            </div>
-
-
-            <div class="col-6 mb-4">
-                <h5>list</h5>
-                <ul class="list-group">
-                    <li class="list-group-item">testing</li>
-                    <li class="list-group-item">testing</li>
-                    <li class="list-group-item">testing</li>
-                </ul>
-            </div>
-        </div>
-    </div>
 
 </body>
 
