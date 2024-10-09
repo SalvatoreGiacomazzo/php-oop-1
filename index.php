@@ -1,11 +1,20 @@
 <?php
 include_once __DIR__ . '/Movies.php';
-
+/*
 var_dump($americanHistoryX->printInfo());
 var_dump($laHaine->printInfo());
 var_dump($eva->printInfo());
 var_dump($fantozzi->printInfo());
+*/
 
+$movies = [
+    $americanHistoryX,
+    $laHaine,
+    $eva,
+    $fantozzi
+];
+
+//var_dump($movies);
 
 
 ?>
@@ -20,10 +29,52 @@ var_dump($fantozzi->printInfo());
 </head>
 
 <body>
-    <div>
+    <div class="container my-5">
+        <div class="row">
+
+            <div class="col-6 mb-4">
+                <h5>list</h5>
+                <ul class="list-group">
+                    <li class="list-group-item">testing</li>
+                    <li class="list-group-item">testing</li>
+                    <li class="list-group-item">testing</li>
+                </ul>
+            </div>
 
 
+            <div class="col-6 mb-4">
+                <h5>list</h5>
+                <ul class="list-group">
+                    <li class="list-group-item">testing</li>
+                    <li class="list-group-item">testing</li>
+                    <li class="list-group-item">testing</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-6 mb-4">
+                <h5>list</h5>
+                <ul class="list-group">
+                    <li class="list-group-item">testing</li>
+                    <li class="list-group-item">testing</li>
+                    <li class="list-group-item">testing</li>
+                </ul>
+            </div>
+
+
+            <div class="col-6 mb-4">
+                <h5>list</h5>
+                <ul class="list-group">
+                    <li class="list-group-item">testing</li>
+                    <li class="list-group-item">testing</li>
+                    <li class="list-group-item">testing</li>
+                </ul>
+            </div>
+        </div>
     </div>
+
 </body>
 
 </html>
