@@ -1,4 +1,8 @@
-<?php ?>
+<?php
+include_once __DIR__ . '/Movies.php'
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
